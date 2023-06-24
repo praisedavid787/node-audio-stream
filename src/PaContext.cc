@@ -273,6 +273,7 @@ void PaContext::setParams(napi_env env, bool isInput,
   case 16: params.sampleFormat = paInt16; break;
   case 24: params.sampleFormat = paInt24; break;
   case 32: params.sampleFormat = paInt32; break;
+  case 2: params.sampleFormat = paNonInterleaved; break;
   default: {
       napi_throw_error(env, nullptr, "Invalid sampleFormat");
       return;

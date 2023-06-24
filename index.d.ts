@@ -12,6 +12,7 @@ export const SampleFormat8Bit = 8;
 export const SampleFormat16Bit = 16;
 export const SampleFormat24Bit = 24;
 export const SampleFormat32Bit = 32;
+export const SampleFormatNonInterleaved = 2;
 
 /** The details returned from getDevices for a particular device */
 export interface DeviceInfo {
